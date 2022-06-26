@@ -9,7 +9,7 @@ The model was developed using the FER-2013 dataset, which was presented at the I
  
  Python 3, OpenCV, Tensorflow
  
-DATA PREPERATION 
+DATA MAKING(IT IS TOTALLY OPTIONAL)
 
 The original FER2013 dataset in Kaggle is available as a single csv file. 
 We had converted into a dataset of images in the PNG format for training/testing and provided this as the dataset in the previous section.
@@ -26,3 +26,5 @@ The region of image containing the face is resized to 48x48 and is passed as inp
 The network outputs a list of softmax scores for the seven classes of emotions.
 
 The emotion with maximum score is displayed on the screen.
+
+LINK TO THE FER 2013 DATASET: https://www.kaggle.com/deadskull7/fer2013
